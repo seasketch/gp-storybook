@@ -1,0 +1,9 @@
+import{j as t}from"./jsx-runtime-DEdD30eg.js";import{C as a}from"./Card-CM14UvZN.js";import{G as m}from"./GroupCircleRow-CQR-r2UC.js";import{R as n}from"./ReportDecorator-BKqhhKaH.js";import{T as c}from"./Table-DU7L5fPt.js";import{f as l}from"./index-CJGZSqXF.js";import"./index-RYns6xqu.js";import"./Circle-C4NcHiwg.js";import"./styled-components.browser.esm-Cwi-fKCl.js";import"./index-BAMY2Nnw.js";import"./index-BKD8Dact.js";import"./cloneDeep-DjGZ9tLP.js";import"./_getPrototype-2UMXDfW_.js";import"./extends-CF3RwP-h.js";import"./index.esm-BWA7R1MX.js";import"./DataDownload-NRMtrsbm.js";import"./Dropdown-BSgC6zM_.js";import"./usePopper-ptQ-sUxU.js";import"./index-D16Yfzz8.js";import"./SimpleButton-CD5OHI_F.js";import"./index-BbP3371Q.js";import"./useSketchProperties-C7Z3ZE-x.js";import"./useTranslation-SdK8TBCK.js";import"./context-D1gH75Th.js";import"./Toolbar-Ci4_u54V.js";const u=o=>o&&o[0].toLocaleUpperCase()+o.slice(1)||"",N={component:m,title:"Components/Table/GroupCircleRow",decorators:[n]},d={high:"#BEE4BE",med:"#FFE1A3",low:"#F7A6B4"},r=()=>{const o=[{Header:"Group assignments",accessor:e=>t.jsx(m,{group:e.group,groupColorMap:d,circleText:`${u(e.group[0])}`,rowText:e.name})}];return t.jsx(a,{title:"Report Title",children:t.jsx(c,{columns:o,data:l.humanUse})})};r.__docgenInfo={description:"",methods:[],displayName:"simple"};var p,s,i;r.parameters={...r.parameters,docs:{...(p=r.parameters)==null?void 0:p.docs,source:{originalSource:`() => {
+  const columns: Column<HumanUse>[] = [{
+    Header: "Group assignments",
+    accessor: row => <GroupCircleRow group={row.group} groupColorMap={groupColorMap} circleText={\`\${capitalize(row.group[0])}\`} rowText={row.name} />
+  }];
+  return <Card title="Report Title">
+      <Table columns={columns} data={fixtures.humanUse} />
+    </Card>;
+}`,...(i=(s=r.parameters)==null?void 0:s.docs)==null?void 0:i.source}}};const O=["simple"];export{O as __namedExportsOrder,N as default,r as simple};

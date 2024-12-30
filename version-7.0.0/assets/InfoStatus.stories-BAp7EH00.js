@@ -1,0 +1,5 @@
+import{j as r}from"./jsx-runtime-DEdD30eg.js";import{C as m}from"./Card-CM14UvZN.js";import{R as n}from"./ReportDecorator-BKqhhKaH.js";import{I as a}from"./InfoStatus-DIO3Rise.js";import"./index-RYns6xqu.js";import"./index-BKD8Dact.js";import"./cloneDeep-DjGZ9tLP.js";import"./_getPrototype-2UMXDfW_.js";import"./InfoCircleFill.esm-CjhE5QEd.js";import"./extends-CF3RwP-h.js";import"./index.esm-BWA7R1MX.js";import"./styled-components.browser.esm-Cwi-fKCl.js";import"./index-BAMY2Nnw.js";const C={component:a,title:"Components/InfoStatus",decorators:[n]},t=()=>r.jsx(m,{children:r.jsx(a,{msg:r.jsxs(r.Fragment,{children:["These are ",r.jsx("b",{children:"draft"})," reports. Please report any issues."]})})});t.__docgenInfo={description:"",methods:[],displayName:"infoStatus"};var o,s,e;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`() => <Card>
+    <InfoStatus msg={<>
+          These are <b>draft</b> reports. Please report any issues.
+        </>} />
+  </Card>`,...(e=(s=t.parameters)==null?void 0:s.docs)==null?void 0:e.source}}};const _=["infoStatus"];export{_ as __namedExportsOrder,C as default,t as infoStatus};
